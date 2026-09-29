@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Contact Me</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="favorites.html">Favorites</a>
+            <a href="goals.html">Goals</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Contact Section -->
+        <section class="contact">
+
+            <h1>CONTACT ME!</h1>
+
+            <p class="intro">
+                You can use the contact form below to send me a message.
+            </p>
+
+            <form>
+
+                <!-- Full Name -->
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name">
+
+                <!-- Email -->
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email">
+
+                <!-- Gender -->
+                <label>Gender:</label>
+
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="gender" value="male">
+                        Male
+                    </label>
+
+                    <label>
+                        <input type="radio" name="gender" value="female">
+                        Female
+                    </label>
+                </div>
+
+                <!-- Interests -->
+                <h2>Interests:</h2>
+
+                <div class="checkbox-group">
+
+                    <label>
+                        <input type="checkbox" name="interest" value="sports">
+                        Sports
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="interest" value="music">
+                        Music
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="interest" value="travel">
+                        Travel
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="interest" value="reading">
+                        Reading
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="interest" value="gaming">
+                        Gaming
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="interest" value="other">
+                        Other
+                    </label>
+
+                </div>
+
+                <!-- Strand -->
+                <label for="strand">Strand:</label>
+
+                <select id="strand" name="strand">
+                    <option value="">Select a strand</option>
+                    <option value="humss">HUMSS</option>
+                    <option value="stem">STEM</option>
+                    <option value="abm">ABM</option>
+                    <option value="tvl">TVL</option>
+                    <option value="gas">GAS</option>
+                </select>
+
+                <!-- Purpose -->
+                <label for="purpose">Purpose of Message:</label>
+
+                <select id="purpose" name="purpose">
+                    <option value="">-- Select Purpose --</option>
+                    <option value="question">Question</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="suggestion">Suggestion</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <!-- Message -->
+                <label for="message">Message:</label>
+
+                <textarea id="message" name="message" rows="5"></textarea>
+
+                <!-- Buttons -->
+                <div class="buttons">
+                    <button type="submit">Send Message</button>
+                    <button type="reset">Reset</button>
+                </div>
+
+                <!-- Updates -->
+                <div class="updates">
+                    <label>
+                        <input type="checkbox" name="updates">
+                        I would like to receive updates.
+                    </label>
+                </div>
+
+                <!-- Preferred Contact -->
+                <label>Preferred way to contact you:</label>
+
+                <div class="radio-group">
+
+                    <label>
+                        <input type="radio" name="contact" value="email">
+                        Email
+                    </label>
+
+                    <label>
+                        <input type="radio" name="contact" value="phone">
+                        Phone
+                    </label>
+
+                </div>
+
+            </form>
+
+            <hr>
+
+            <!-- Website Rating -->
+            <section class="rating">
+
+                <h2>How Would You Rate My Website?</h2>
+
+                <div class="rating-control">
+
+                    <span>Your Rating:</span>
+
+                    <input
+                        type="range"
+                        id="rating"
+                        name="rating"
+                        min="0"
+                        max="100"
+                        value="50"
+                    >
+
+                    <span>Your rating: <strong>50%</strong> 💗</span>
+
+                </div>
+
+            </section>
+
+            <hr>
+
+            <p class="thank-you">
+                Thank you for visiting my contact page. Take care!
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Jenny Garnates Burdago</p>
+    </footer>
+
+</body>
+</html>
